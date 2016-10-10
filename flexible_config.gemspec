@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 	s.require_path = 'lib'
 	s.files        = Dir.glob('lib/**/*') + %w{Gemfile Guardfile MIT-LICENSE README.md}
 
-  s.add_dependency 'activesupport', '~> 4.0.0'
+  s.add_dependency 'activesupport', '~> 4.2'
 
 	s.add_development_dependency 'bundler'
 	s.add_development_dependency 'rake'
